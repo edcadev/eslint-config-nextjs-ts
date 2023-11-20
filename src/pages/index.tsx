@@ -4,10 +4,6 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
-  const filter = '/.(cdd|less|sass|scss|stylus|pcss|postcss|json|wasm)$//.(cdd|less|sass|scss|stylus|pcss|postcss|json|wasm)$/';
-
-  console.log(filter);
-
   return (
     <main className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
